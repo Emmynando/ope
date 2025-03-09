@@ -2,6 +2,8 @@ import MotionComponent from "@/component/UI/elements/MotionComp";
 import { fadeInVariants } from "@/component/UI/elements/motion";
 import { BENEFITS } from "@/constants";
 import { inter_bold, inter_light } from "@/utils/fonts";
+import Image from "next/image";
+import insights from "@/assests/icons/expertInsigts.svg";
 
 export default function Benefits() {
   return (
@@ -20,16 +22,28 @@ export default function Benefits() {
             as="div"
             variants={fadeInVariants("up", (index + 1) / 10, 0.5)}
             key={benefit.id}>
-            <div className="flex items-center gap-3 ">
-              <span className="p-1 bg-white rounded-full"></span>
-              <h3 className={`box-header ${inter_bold.className}`}>
-                {benefit.header}
-              </h3>
+            <div className="">
+              <span
+                className="block size-14 rounded-full mt-[1.5rem] bg-[#4d5066]
+               flex items-center justify-center">
+                <Image
+                  src={benefit.icon}
+                  alt="Create Account"
+                  width={40}
+                  height={40}
+                />
+              </span>
+              <div className="flex items-center gap-3 ">
+                <span className="p-1 bg-white rounded-full"></span>
+                <h3 className={`box-header ${inter_bold.className}`}>
+                  {benefit.header}
+                </h3>
+              </div>
+              <p
+                className={`box-paragraph text-justify ${inter_light.className}`}>
+                {benefit.paragraph}
+              </p>
             </div>
-            <p
-              className={`box-paragraph text-justify ${inter_light.className}`}>
-              {benefit.paragraph}
-            </p>
           </MotionComponent>
         ))}
       </section>

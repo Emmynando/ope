@@ -34,6 +34,7 @@ export default function Testimonials() {
             {CAROUZEL.map((items) => (
               <CarouselItem>
                 <CarouselText
+                  key={items.id}
                   paragraph={items.title}
                   title={items.heading}
                   id={items.id}

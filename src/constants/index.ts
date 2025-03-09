@@ -1,3 +1,9 @@
+import ExpertIcon from "@/assests/icons/expertInsigts.svg";
+import SupportIcon from "@/assests/icons/support.svg";
+import ProfitIcon from "@/assests/icons/profit.svg";
+import CapitalIcon from "@/assests/icons/secureCapital.svg";
+import WithdrawIcon from "@/assests/icons/withdrawal.svg";
+import PlanIcon from "@/assests/icons/flexiblePlan.svg";
 export const NAVLINKS = [
   {
     id: "n1",
@@ -22,36 +28,42 @@ export const BENEFITS = [
     header: "Expert Insights",
     paragraph: `with our ton of experts, deep analysis are carried out daily to ensure that every of
          our client's porfolio is added a profit daily`,
+    icon: ExpertIcon,
   },
   {
     id: "b2",
     header: "Customer Support",
     paragraph: `Our Customer support work round the clock to top customer satisfaction and a better
          investment experience`,
+    icon: SupportIcon,
   },
   {
     id: "b3",
     header: "Guaranteed Profit",
     paragraph: `For every deposit made, there is a Guaranteed profitfor as high as 500% returns 
          on your portfolio's worth`,
+    icon: ProfitIcon,
   },
   {
     id: "b4",
     header: "Secured Capital",
     paragraph: `Regradless of market movement, and guidance from our experts, capital are not affected 
          and our client can withdraw their capital anytime`,
+    icon: CapitalIcon,
   },
   {
     id: "b5",
     header: "Instant Withdrawals",
     paragraph: `withdrawals are quick and instant, every withdrwals are made instantly into your wallet 
          `,
+    icon: WithdrawIcon,
   },
   {
     id: "b6",
     header: "Flexible Plans",
     paragraph: `Our plans are flexible to suit your finances, which means regardless your budget, you
     we can manage your portfolio`,
+    icon: PlanIcon,
   },
 ];
 

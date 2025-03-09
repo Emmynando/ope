@@ -2,6 +2,10 @@
 import Button from "@/component/UI/elements/Button";
 import { inter_bold, inter_light } from "@/utils/fonts";
 import { ArrowCircleRight } from "@phosphor-icons/react";
+import CreatAccount from "@/assests/icons/createAccount.svg";
+import CreatPort from "@/assests/icons/createPortfolio.svg";
+import Earn from "@/assests/icons/startEarning.svg";
+import Image from "next/image";
 
 export default function Features() {
   return (
@@ -23,6 +27,15 @@ export default function Features() {
       </section>
       <section className="flex flex-col md:flex-row lg:flex-row gap-2 lg:gap-4 mt-[1rem] lg:mt-[2rem]">
         <div>
+          <span className="size-14 my-2 bg-white rounded-full flex items-center justify-center">
+            <Image
+              src={CreatAccount}
+              alt="Create Account"
+              width={30}
+              height={30}
+            />
+          </span>
+
           <h3
             className={`text-base mt-4 md:mt-0 lg:mt-0 mb-2 ${inter_bold.className}`}>
             Create an Account
@@ -33,6 +46,14 @@ export default function Features() {
           </p>
         </div>
         <div>
+          <span className="size-14 my-2 bg-white rounded-full flex items-center justify-center">
+            <Image
+              src={CreatPort}
+              alt="Create Account"
+              width={30}
+              height={30}
+            />
+          </span>
           <h3
             className={`text-base mt-4 md:mt-0 lg:mt-0 mb-2 ${inter_bold.className}`}>
             Create a Portfolio
@@ -43,6 +64,9 @@ export default function Features() {
           </p>
         </div>
         <div>
+          <span className="size-14 my-2 bg-white rounded-full flex items-center justify-center">
+            <Image src={Earn} alt="Create Account" width={30} height={30} />
+          </span>
           <h3
             className={`text-base mt-4 md:mt-0 lg:mt-0 mb-2 ${inter_bold.className}`}>
             Start Earning
