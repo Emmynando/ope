@@ -11,7 +11,7 @@ export default function Navbar() {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="fixed inset-0 z-40 w-full transition ease-out delay-100 duration-500 px-4 py-2">
+    <nav className="fixed inset-0 z-40 w-full transition ease-out delay-100 duration-500 px-4 py-2 h-max">
       <section className="flex justify-between items-center">
         <div
           className="cursor-pointer md:w-[33.33%] lg:w-[33.33%]"

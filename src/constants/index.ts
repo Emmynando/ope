@@ -134,3 +134,50 @@ export const CAROUZEL = [
     country: "Ireland",
   },
 ];
+
+export const FAQuestions = [
+  {
+    id: "1",
+    question: "How Long Does it Take To Withdraw?",
+    answer:
+      "Withdrawals are paid in a space of 0 - 24 hours, considering the functioning of the blockchain network when there are many transactions to be added to a block",
+  },
+  {
+    id: "2",
+    question: "Is there a registration fee?",
+    answer: "Registration on Guarantee Trades 247 is free.",
+  },
+  {
+    id: "3",
+    question: "What is the withdrawal limit?",
+    answer: "There is no limit for withdrawals.",
+  },
+  {
+    id: "4",
+    question: "Is deposit automatic?",
+    answer:
+      "All deposits are automatically credited to your balance, as you send BTC to the unique wallet address generated during funding request.",
+  },
+  {
+    id: "5",
+    question: "Can I invest in multiple plans?",
+    answer:
+      "Yes, you can invest in multiple plans. All investments run concurrently.",
+  },
+  {
+    id: "6",
+    question: "What are the chances of losing your money?",
+    answer:
+      "Chances of losing your money in crypto investment do exist. However, in our case, the possibility is relatively low.",
+  },
+];
+
+export const quickLinks = [
+  {
+    id: "1",
+    header: "Quick Links",
+    list1: "Home",
+    list2: "Login",
+    list3: "Register",
+  },
+];

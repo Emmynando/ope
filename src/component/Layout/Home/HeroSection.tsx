@@ -6,7 +6,7 @@ import { ArrowCircleRight } from "@phosphor-icons/react";
 export default function HeroSection() {
   const router = useRouter();
   return (
-    <main>
+    <main className="h-dvh">
       <section>
         <h1 className="lg:text-6xl text-white font-bold text-center text-3xl space-y-1 mb-[0.5rem]">
           Invest Your <span className="text-[#00C3FD]">Crypto</span> Asset in a{" "}
