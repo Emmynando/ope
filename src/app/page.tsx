@@ -7,6 +7,7 @@ import Testimonials from "@/component/Layout/Home/Testimonials";
 import Charts from "@/component/Layout/Home/Charts";
 import FAQ from "@/component/Layout/Home/FAQ";
 import Footer from "@/component/UI/Footer";
+import ContactUs from "@/component/Layout/Home/ContactUs";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Cryptocurrency />
       <Charts />
       <FAQ />
+      <ContactUs />
       <Footer />
     </main>
   );
